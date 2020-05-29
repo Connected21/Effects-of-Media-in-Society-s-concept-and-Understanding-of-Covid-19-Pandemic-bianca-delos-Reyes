@@ -1,0 +1,115 @@
+.report
+{
+    position: fixed;
+    left: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #111;
+    width: 50%;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    transition: 300ms all ease-in-out;
+    z-index: 100;
+    margin: auto;
+}
+.report h2
+{
+    color: white;
+    text-align: center;
+    background: none;
+}
+.report .container
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    background:none;
+    overflow: hidden;
+    text-align: center;
+    padding:  20px; 
+    margin-left: 138px;
+}
+.report .container .btnCtr
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-between;
+    margin: 20px auto;
+    background:none;
+}
+.report .container .btnCtr button
+{
+    flex: 1;
+    height: 45px;
+    background: none;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    transition: background 300ms ease-in-out;
+}
+.report .container .btnCtr #sendR:hover
+{
+    color: #000;
+    background: #98ff98;
+    border: none;
+}
+.report .container .btnCtr button:hover{
+    color: #aaa;
+    border: 2px #aaa solid;
+}
+#reportLink
+{
+    font-size: 20px;
+    color: #fff;
+    z-index: 100;
+    position: fixed;
+
+    margin: 20px 10px;
+    right: 0;
+    top:92%;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 3px;
+    background: #006599;
+    margin-bottom: 40px;
+}
+
+.ps a{
+    display: inline-block;
+    margin:  10px 30px;
+    margin-left: 250px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+
+.ps a img{
+    width: 147%;
+    transition: 0.4s all;
+    display: block;
+
+}
+
+.report .container .section .name {
+    color: white;
+    font-size: 22px;
+}
+
+    .report .container p {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+
+}
